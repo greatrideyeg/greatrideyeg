@@ -4,89 +4,116 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Great Ride of Return - Edmonton | October 3, 2026</title>
+<title>Great Ride of Return — Edmonton | October 3, 2026</title>
 
 <style>
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        background: #f4f6f8;
-        color: #222;
-    }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111;
+    color: #eee;
+    line-height: 1.6;
+}
 
-    header {
-        background: linear-gradient(135deg, #1b5e20, #43a047);
-        color: white;
-        text-align: center;
-        padding: 50px 20px;
-    }
+header {
+    background: linear-gradient(135deg, #000, #1b5e20);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.6rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+}
+
+.card {
+    background: #1c1c1c;
+    border-radius: 14px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.5);
+}
+
+h2 {
+    color: #81c784;
+    margin-top: 0;
+}
+
+.intro {
+    font-size: 1.1rem;
+}
+
+.highlight {
+    color: #a5d6a7;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+a {
+    color: #81d4fa;
+}
+
+.map-container {
+    width: 100%;
+    height: 550px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.zeffy-container {
+    min-height: 450px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #000;
+    color: #aaa;
+}
+
+@media(max-width:700px) {
 
     header h1 {
-        margin: 0;
-        font-size: 2.5rem;
-    }
-
-    header p {
-        font-size: 1.2rem;
-        margin-top: 15px;
-    }
-
-    .container {
-        max-width: 1200px;
-        margin: auto;
-        padding: 25px;
+        font-size: 1.9rem;
     }
 
     .card {
-        background: white;
-        border-radius: 12px;
-        padding: 25px;
-        margin-bottom: 25px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-
-    h2 {
-        color: #1b5e20;
-        margin-top: 0;
+        padding: 20px;
     }
 
     .map-container {
-        width: 100%;
-        height: 550px;
-        overflow: hidden;
-        border-radius: 10px;
+        height: 400px;
     }
-
-    .map-container iframe {
-        width: 100%;
-        height: 100%;
-        border: 0;
-    }
-
-    .zeffy-container {
-        min-height: 450px;
-    }
-
-    footer {
-        text-align: center;
-        padding: 25px;
-        background: #222;
-        color: white;
-    }
-
-    @media(max-width:700px) {
-        header h1 {
-            font-size: 1.8rem;
-        }
-
-        .map-container {
-            height: 400px;
-        }
-    }
+}
 </style>
 
 </head>
@@ -96,104 +123,174 @@
 <header>
     <h1>Great Ride of Return - Edmonton</h1>
     <p>October 3, 2026</p>
-    <p>Join us for the ride. Follow the route. Support the cause.</p>
+    <p>We ride again.</p>
 </header>
 
 
 <div class="container">
 
-    <div class="card">
-        <h2>Ride Route & Live Map</h2>
 
-        <div class="map-container">
-            <iframe 
-                id="rideMap"
-                src="https://www.google.com/maps/d/embed?mid=19ScLhKyvATO1_i9NPUvCInS05B0uGEI&ehbc=2E312F&noprof=1">
-            </iframe>
-        </div>
-    </div>
+<div class="card intro">
 
+<h2>We ride again.</h2>
 
-    <div class="card">
-        <h2>Get Your T-Shirt / Support the Ride</h2>
+<p>
+👉 <strong>Gather at 1pm sharp</strong>, Earth’s Refillery (95 Street and 108A Ave)
+</p>
 
-        <div class="zeffy-container">
+<p>
+👉 Live route map below. Follow the bike icon on the map to see where we are as the ride progresses and join us for any part of the route.
+Brief stop at Ralph's Fried Chicken and longer stop at Central City Market & Café.
+</p>
 
-            <div data-zeffy-embed 
-                 data-form-url="/embed/ticketing/great-ride-of-return-t-shirts">
-            </div>
-
-            <div data-zeffy-embed-fallback style="display:none;">
-                <div style="
-                    position:relative;
-                    overflow:hidden;
-                    height:450px;
-                    width:100%;
-                    padding-top:450px;">
-                    
-                    <iframe 
-                        title="Donation form powered by Zeffy"
-                        style="
-                        position:absolute;
-                        border:0;
-                        top:0;
-                        left:0;
-                        bottom:0;
-                        right:0;
-                        width:100%;
-                        height:100%;"
-                        data-zeffy-embed-src="https://www.zeffy.com/embed/ticketing/great-ride-of-return-t-shirts"
-                        allowpaymentrequest
-                        allowTransparency="true">
-                    </iframe>
-
-                </div>
-            </div>
+<p>
+👉 Post-ride gathering at the Piazza outside of Earth’s Refillery
+</p>
 
 
-            <script
-                src="https://www.zeffy.com/embed/v2/zeffy-embed.js"
-                onerror="
-                document.querySelectorAll('[data-zeffy-embed-fallback]')
-                .forEach(function(el){
-                    el.style.display='block';
-                    el.querySelectorAll('iframe[data-zeffy-embed-src]')
-                    .forEach(function(f){
-                        f.src=f.getAttribute('data-zeffy-embed-src');
-                    });
-                });">
-            </script>
+<h2>Things to bring for the ride:</h2>
 
-        </div>
-    </div>
+<ul>
+<li>💧 Large water bottle to stay hydrated</li>
+<li>☀️ Sunscreen, weather-appropriate clothing</li>
+<li>
+🍫 Snacks to refuel. The ride begins and ends at 
+<a href="https://www.instagram.com/earthsrefillery/" target="_blank">
+@earthsrefillery
+</a>
+if you want lovely vegan food at the beginning or end.
+</li>
+
+<li>
+💲 We will be selling t-shirts designed by 
+<a href="https://www.instagram.com/t_salty/" target="_blank">
+@t_salty
+</a>
+to send $ to families in ______.  
+<strong>$45</strong> (cash, tap payments, and e-transfer accepted)
+</li>
+</ul>
 
 </div>
 
 
-<footer>
-    © 2026 Great Ride of Return - Edmonton
-</footer>
+
+<div class="card">
+
+<h2>Ride Route & Live Map</h2>
+
+<div class="map-container">
+
+<iframe 
+id="rideMap"
+src="https://www.google.com/maps/d/embed?mid=19ScLhKyvATO1_i9NPUvCInS05B0uGEI&ehbc=2E312F&noprof=1">
+</iframe>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>T-Shirts</h2>
+
+<p>
+<strong>
+Shirts designed and printed by Travis Salty, local Edmonton tattoo artist.
+</strong>
+</p>
+
+<p>
+All proceeds from our shirt sales go to ______, an ongoing mutual aid fundraising campaign supporting ______.
+</p>
+
+<p>
+Pick your size. Please note, we can’t guarantee colour. If you prefer to select for specific colour, weight of shirt, etc, you can do so by buying in-person at the Great Ride of Return.
+</p>
+
+
+<div class="zeffy-container">
+
+
+<div data-zeffy-embed 
+data-form-url="/embed/ticketing/great-ride-of-return-t-shirts">
+</div>
+
+
+<div data-zeffy-embed-fallback style="display:none;">
+
+<div style="
+position:relative;
+overflow:hidden;
+height:450px;
+width:100%;
+padding-top:450px;">
+
+<iframe 
+title="Donation form powered by Zeffy"
+style="
+position:absolute;
+border:0;
+top:0;
+left:0;
+bottom:0;
+right:0;
+width:100%;
+height:100%;"
+
+data-zeffy-embed-src="https://www.zeffy.com/embed/ticketing/great-ride-of-return-t-shirts"
+
+allowpaymentrequest
+allowTransparency="true">
+</iframe>
+
+</div>
+
+</div>
+
+
+<script
+src="https://www.zeffy.com/embed/v2/zeffy-embed.js"
+onerror="
+document.querySelectorAll('[data-zeffy-embed-fallback]')
+.forEach(function(el){
+el.style.display='block';
+el.querySelectorAll('iframe[data-zeffy-embed-src]')
+.forEach(function(f){
+f.src=f.getAttribute('data-zeffy-embed-src');
+});
+});">
+</script>
+
+
+</div>
+
+</div>
+
+
+</div>
+
 
 
 <script>
-/*
- Refresh Google map every 60 seconds
- by reloading the iframe source.
-*/
 
-setInterval(function() {
+// Refresh Google map every 60 seconds
 
-    const map = document.getElementById("rideMap");
+setInterval(function(){
 
-    const currentSource = map.src;
+const map = document.getElementById("rideMap");
 
-    map.src = "";
+const currentSource = map.src;
 
-    setTimeout(function() {
-        map.src = currentSource;
-    }, 100);
+map.src = "";
 
-}, 60000);
+setTimeout(function(){
+map.src = currentSource;
+},100);
+
+},60000);
 
 </script>
 
